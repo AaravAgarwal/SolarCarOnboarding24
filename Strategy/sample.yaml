@@ -1,0 +1,32 @@
+# Provides starting distance. 
+start_distance: 0
+# Provides starting time in seconds. 
+start_time: 0
+# The starting state of charge from 0.0 to 1.0
+start_soc: 1.0
+# This is the interval between speeds that it will search through (in km/h).
+velocity_interval: 5
+# Interval between timestamps
+time_interval: 1000
+# Interval between SOC points
+soc_interval: .01
+# Provides ending time in seconds
+end_time: 2000
+# Vehicle velocity in m/s
+velocity: 15
+# Wind speed in m/s
+frontal_wind_speed: 5
+# frontal area in m^2
+frontal_area: 0.8
+# drag_coefficient
+drag_coefficient: 0.2
+# value of gravitational acceleration in m/s^2
+gravitational_acceleration: 9.81 # m/s^2
+# value of seal level air density in kg/m^3
+SEA_LEVEL_AIR_DENSITY: 1.225
+# crosswind speed in m/s
+crosswind_speed: 3
+# side area in m^2
+side_area: 0.8
+# side_drag coefficient
+side_drag_coefficient: 0.1
